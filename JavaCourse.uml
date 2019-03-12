@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.work.JavaCourse</OriginalElement>
+  <nodes>
+    <node x="0.0" y="224.0">com.example.work.simplepattern.CourseFactory</node>
+    <node x="173.26388888888886" y="0.0">com.example.work.ICourse</node>
+    <node x="255.5" y="112.0">com.example.work.JavaCourse</node>
+    <node x="222.47222222222223" y="388.0">com.example.work.simplepattern.SimpleFactoryTest</node>
+    <node x="1.7638888888888573" y="112.0">com.example.work.PythonCourse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.work.simplepattern.CourseFactory" target="com.example.work.PythonCourse">
+      <point x="-123.66666666666669" y="-57.0" />
+      <point x="61.833333333333314" y="199.0" />
+      <point x="85.76388888888886" y="199.0" />
+      <point x="0.0" y="31.0" />
+    </edge>
+    <edge source="com.example.work.PythonCourse" target="com.example.work.ICourse">
+      <point x="0.0" y="-31.0" />
+      <point x="85.76388888888886" y="82.0" />
+      <point x="194.26388888888886" y="82.0" />
+      <point x="-63.0" y="31.0" />
+    </edge>
+    <edge source="com.example.work.JavaCourse" target="com.example.work.ICourse">
+      <point x="0.0" y="-31.0" />
+      <point x="339.5" y="92.0" />
+      <point x="278.26388888888886" y="92.0" />
+      <point x="21.0" y="31.0" />
+    </edge>
+    <edge source="com.example.work.simplepattern.SimpleFactoryTest" target="com.example.work.simplepattern.CourseFactory">
+      <point x="-78.375" y="-31.0" />
+      <point x="248.59722222222223" y="363.0" />
+      <point x="92.75" y="363.0" />
+      <point x="-92.75" y="57.0" />
+    </edge>
+    <edge source="com.example.work.simplepattern.SimpleFactoryTest" target="com.example.work.ICourse">
+      <point x="78.375" y="-31.0" />
+      <point x="405.34722222222223" y="363.0" />
+      <point x="434.0" y="363.0" />
+      <point x="434.0" y="82.0" />
+      <point x="320.26388888888886" y="82.0" />
+      <point x="63.0" y="31.0" />
+    </edge>
+    <edge source="com.example.work.simplepattern.CourseFactory" target="com.example.work.JavaCourse">
+      <point x="123.66666666666669" y="-57.0" />
+      <point x="309.1666666666667" y="199.0" />
+      <point x="297.5" y="199.0" />
+      <point x="-42.0" y="31.0" />
+    </edge>
+    <edge source="com.example.work.simplepattern.SimpleFactoryTest" target="com.example.work.JavaCourse">
+      <point x="26.125" y="-31.0" />
+      <point x="353.09722222222223" y="363.0" />
+      <point x="381.5" y="363.0" />
+      <point x="42.0" y="31.0" />
+    </edge>
+    <edge source="com.example.work.simplepattern.CourseFactory" target="com.example.work.ICourse">
+      <point x="0.0" y="-57.0" />
+      <point x="185.5" y="199.0" />
+      <point x="180.26388888888886" y="199.0" />
+      <point x="180.26388888888886" y="92.0" />
+      <point x="236.26388888888886" y="92.0" />
+      <point x="-21.0" y="31.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="240.5" y="298.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
